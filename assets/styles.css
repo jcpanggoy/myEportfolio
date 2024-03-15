@@ -50,7 +50,7 @@ body {
 .navbar a:hover{
     background-color: #fff;
     color: #c77197;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 .profile-icon:hover{
