@@ -100,8 +100,8 @@ body {
 }
 
 .myImg {
-    width: 480px; /* Adjusted width */
-    height: 480px; /* Adjusted height */
+    width: 480px; 
+    height: 480px; 
     border-radius: 50%; 
     overflow: hidden;
     object-fit: cover;
@@ -128,7 +128,7 @@ body {
 .imgAG, .imgPres, .imgEVP, .imgCEH {
     margin: 50px; 
     width: calc(33% - 10px);
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box; 
 }
 
 .imgAG img, .imgPres img, .imgEVP img, .imgCEH img {
@@ -212,24 +212,26 @@ body {
 *****************************************************************************************/
 .projects-container {
     display: flex;
-    justify-content: space-between; /* Adjusted to space-between for spacing between items */
-    align-items: center; /* Vertically align items in case they have different heights */
-    padding: 0 20px; /* Add padding to the container to ensure space at the edges */
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+    margin-top: 3%;
 }
 
-/* Optional: Adjust the project divs */
 .proj1, .proj2, .proj3 {
-    flex: 1; /* Each div takes up equal space */
-    margin: 0 10px; /* Add margin to each project div for space between them */
-    width: calc(33.33% - 20px); /* Adjust width to account for margin, ensuring they still fit in a row */
+    flex: 1; 
+    margin: 0 10px; 
+    width: calc(33.33% - 20px); 
     background-color: #fff;
-    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    box-sizing: border-box; 
+    border-radius: 10px;
 }
 
 .proj1 img, .proj2 img, .proj3 img {
     width: 250px;
     height: 250px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    margin-left: 15%;
 }
 
 
